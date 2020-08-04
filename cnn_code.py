@@ -33,7 +33,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 model = Sequential()
 model.add(Dense(units=512, input_dim=28*28, activation='relu'))
-model.summary()​
+model.summary()
 model.add(Dense(units=256, activation='relu'))
 model.add(Dense(units=128, activation='relu'))
 model.add(Dense(units=32, activation='relu'))
